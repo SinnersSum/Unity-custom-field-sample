@@ -1,0 +1,10 @@
+Logs
+obj
+Temp
+UserSettings
+.vs
+Library
+
+.vsconfig
+
+Assets/**/*.meta
