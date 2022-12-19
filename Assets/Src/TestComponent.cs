@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Summit.UGame
 {
-    public class TestCompnent : MonoBehaviour
+    public class TestComponent : MonoBehaviour
     {
         [SerializeField]
         internal Vector3 vec_;

@@ -10,7 +10,7 @@ using UnityEditor.UIElements;
 
 namespace Summit.UGame
 {
-    [CustomEditor(typeof(TestCompnent))]
+    [CustomEditor(typeof(TestComponent))]
     public class TestComponentEditor : Editor
     {
         public override VisualElement CreateInspectorGUI() {
@@ -18,14 +18,13 @@ namespace Summit.UGame
             var container = new VisualElement();
 
             var vecField = new Vector3Field();
-            vecField.bindingPath = nameof(TestCompnent.vec_);
+            vecField.bindingPath = nameof(TestComponent.vec_);
             container.Add(vecField);
 
             var blField = new BlkEdgeField();
-            blField.bindingPath = nameof(TestCompnent.edge_);
+            blField.bindingPath = nameof(TestComponent.edge_);
             container.Add(blField);
 
-            //vecField.Bind(serializedObject);
             container.Bind(serializedObject);
 
             return container;

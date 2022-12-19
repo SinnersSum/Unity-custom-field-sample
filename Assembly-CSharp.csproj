@@ -56,9 +56,9 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Src\BlkEdge.cs" />
-    <Compile Include="Assets\Src\TestCompnent.cs" />
     <Compile Include="Assets\Src\Compat_.cs" />
+    <Compile Include="Assets\Src\BlkEdge.cs" />
+    <Compile Include="Assets\Src\TestComponent.cs" />
     <Compile Include="Assets\Src\Assembly.cs" />
   </ItemGroup>
   <ItemGroup>
